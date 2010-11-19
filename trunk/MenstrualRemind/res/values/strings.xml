@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="strButton1">Set</string>
+  <string name="strButton2">Save</string>
+  <string name="app_name">Menstruation Remind</string>
+  <string name="strMessage1">The first day of the last menstruation is</string>
+  <string name="strMessage2">Expected date of the next menstruation is</string>
+  <string name="strMessage3">Cycle length</string>
+  <string name="strMessage4">Daily notifications time</string>
+  <string name="strMessage5">There are still</string>
+  <string name="strMessage6">Expected next ovulation date is</string>
+  <string name="strMessage7"> days left before the next menstruation </string>
+  <string name="strMessage8">Over </string>
+
+<string name="strMessage9">days !</string>
+<string name="strSetting">Setting</string>
+</resources>

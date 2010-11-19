@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/white"
+  >
+  <Button 
+  android:id="@+id/Button01" 
+  android:layout_width="100px" 
+  android:layout_height="wrap_content" 
+  android:typeface="monospace" 
+  android:text="@string/strButton1">
+  </Button>
+
+  <TextView 
+  android:id="@+id/TextView01" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+  android:textSize="20sp"  	
+  android:textColor="#ffff6699"	
+  android:text="@string/strMessage1">
+  </TextView>
+  <TextView 
+  android:id="@+id/TextView02" 
+  android:layout_width="wrap_content"  
+  android:layout_height="wrap_content" 
+  android:textSize="30sp"  	
+  android:textColor="#ff9999ff">
+  </TextView>
+  <TextView
+  android:id="@+id/TextView03" 
+  android:layout_width="wrap_content"  
+  android:layout_height="wrap_content" 
+  android:textSize="20sp"  	
+  android:textColor="#ffff6699"	
+  android:text="@string/strMessage2">
+  </TextView>
+  <TextView 
+  android:id="@+id/TextView04" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+  android:textSize="30sp"  	
+  android:textColor="#ff9999ff"	>
+  </TextView>
+  <TextView 
+  android:id="@+id/TextView05" 
+  android:layout_width="wrap_content"  
+  android:layout_height="wrap_content" 
+  android:textSize="20sp"  	
+  android:textColor="#ffff6699"	
+  android:text="@string/strMessage5">
+  </TextView>
+  
+  <TextView 
+  android:id="@+id/TextView07" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+  android:textSize="20sp"  	
+  android:textColor="#ffff6699"	
+  android:text="@string/strMessage6">
+  </TextView>
+  <TextView 
+  android:id="@+id/TextView08" 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" 
+  android:textSize="30sp"  	
+  android:textColor="#ff9999ff">
+  </TextView>
+  </LinearLayout>
+

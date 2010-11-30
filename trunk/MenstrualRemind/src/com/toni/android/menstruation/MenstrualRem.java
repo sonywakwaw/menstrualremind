@@ -6,6 +6,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import com.admob.android.ads.AdView;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -35,6 +37,8 @@ public class MenstrualRem extends Activity
   {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
+    AdView adView = (AdView)findViewById(R.id.ad);
+    adView.requestFreshAd();
 
     TextView02 = (TextView) this.findViewById(R.id.TextView02);
     TextView04 = (TextView) this.findViewById(R.id.TextView04);
